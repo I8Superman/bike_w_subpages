@@ -7,7 +7,7 @@ In this case look at the template and write the JavaScript code. */
     --white-colour: #fff;
     --grey-colour: #6B6B6B;
     --dark-red: #6E2A27;
-    --hover: orange;
+    --bright-red: orange;
 }
 
 * {
@@ -140,8 +140,8 @@ p {
     padding: 6px 9px;
 }
 
-.fullspecs:hover {
-    color: var(--hover);
+.fullSpecs:hover {
+    color: var(--bright-red);
 }
 
 .box {
