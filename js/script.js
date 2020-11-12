@@ -70,6 +70,9 @@ function showBike(bike) {
         copy.querySelector(".colour").textContent = ("N/A");
     }
 
+    if (copy.querySelector(".description")) {
+        copy.querySelector(".description").innerHTML = bike.content.rendered;
+    }
     // Setting the link on the view specs button
     const a = copy.querySelector("a");
     if (a) {
